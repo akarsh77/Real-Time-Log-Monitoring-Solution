@@ -2,7 +2,7 @@ import asyncio
 import websockets
 import os
 
-LOG_FILE = '/home/atom/Documents/browser-stack/logFile.log'
+LOG_FILE = 'logFile.log'
 
 async def echo(websocket, path):
     with open(LOG_FILE, 'r') as fp:
